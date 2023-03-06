@@ -23,21 +23,6 @@ a{
     text-decoration: none;
 }
 
-/* UTILITIES */
-
-.debug{
-    background-color: rgba(255, 0, 0, 0.299);
-    border: 1px solid #000;
-}
-
-.d-flex{
-    display: flex;
-}
-
-.space-bet{
-    justify-content: space-between;
-}
-
 /* HEADER */
 header{
     height:80px;
@@ -53,12 +38,25 @@ header{
     display: none;
 }
 
-.nav-desktop li{
-    padding-right: 15px;
-}
-
 header a{
     color: white;
+}
+
+/* MAIN */
+
+main{
+    height:1000px;
+    background-color: rgba(0, 0, 255, 0.301);
+}
+
+#demo .col{
+    background-color: rgba(128, 0, 128, 0.299);
+    border: 1px solid #000;
+    width: 100%;
+}
+
+#demo .col p{
+    line-height: 25px;
 }
 
 @media screen and (min-width: 780px){

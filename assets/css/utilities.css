@@ -1,0 +1,41 @@
+/* UTILITIES */
+
+.debug{
+    background-color: rgba(255, 0, 0, 0.299);
+    border: 1px solid #000;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-dir-col{
+    flex-direction: column;
+}
+
+.space-bet{
+    justify-content: space-between;
+}
+
+/* PADDING */
+.pr-15{
+    padding-right: 15px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.py-20{
+    padding: 20px 0;
+}
+
+
+/* MARGIN */
+.mb-20{
+    margin-bottom: 20px;
+}
