@@ -15,6 +15,10 @@ body{
     margin: 0 auto;
 }
 
+.col{
+    width: 100%;
+}
+
 li{
     list-style:none;
 }
@@ -45,15 +49,27 @@ header a{
 /* MAIN */
 
 main{
-    /* height:1000px; */
     background-color: rgba(0, 0, 255, 0.301);
 }
+
 
 #demo .col{
     background-color: rgba(128, 0, 128, 0.299);
     border: 1px solid #000;
-    width: 100%;
+    
 }
+
+/* SECTION 2 */
+#planning img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.col-right{
+    background-color: white;
+}
+
+/* RESPONSIVE */
 
 #demo .col p{
     line-height: 25px;
@@ -91,9 +107,18 @@ main{
     #demo .mini-row-2 .col{
         width: calc(100% * 3);
     }
+
+    #planning .row{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:1140px){
+
+    .container{
+        width: 70%;
+    }
+
     .nav-desktop{
         display: block;
     }
@@ -101,4 +126,10 @@ main{
     .nav-mobile{
         display: none;
     }
+
+    #planning .row{
+        display: flex;
+    }
+
+    
 }

@@ -34,8 +34,16 @@
     padding-bottom: 20px;
 }
 
+.pb-30{
+    padding-bottom: 30px;
+}
+
 .py-20{
     padding: 20px 0;
+}
+
+.py-30{
+    padding: 30px 0;
 }
 
 .px-50{
