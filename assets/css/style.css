@@ -70,8 +70,10 @@ main{
 }
 
 /* SECTION 3 */
-.card p{
-    line-height: 25px;
+#testimonials p,
+#demo .col p,
+#about-us p{
+    line-height: 30px;
 }
 
 /* RESPONSIVE */
@@ -123,6 +125,10 @@ main{
 
     .benefits-cards .col{
         width: calc(100% / 2);
+    }
+
+    #about-us .row{
+        display: flex;
     }
 }
 
