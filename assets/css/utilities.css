@@ -17,6 +17,10 @@
     flex-direction: column;
 }
 
+.text-al-c{
+    text-align: center;
+}
+
 .space-bet{
     justify-content: space-between;
 }
@@ -34,6 +38,9 @@
     padding: 20px 0;
 }
 
+.px-50{
+    padding: 0 50px;
+}
 
 /* MARGIN */
 .mb-20{

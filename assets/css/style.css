@@ -45,7 +45,7 @@ header a{
 /* MAIN */
 
 main{
-    height:1000px;
+    /* height:1000px; */
     background-color: rgba(0, 0, 255, 0.301);
 }
 
@@ -59,7 +59,41 @@ main{
     line-height: 25px;
 }
 
-@media screen and (min-width: 780px){
+@media screen and (min-width: 380px){
+    #demo .row{
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 680px){
+    #demo .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #demo .mini-row-1{
+        display: flex;
+    }
+
+    #demo .mini-row-1 .col:first-child{
+        width: 70%;
+    }
+
+    #demo .mini-row-1 .col:last-child{
+        width: 30%;
+    }
+
+    #demo .mini-row-2{
+        display: flex;
+    }
+
+    #demo .mini-row-2 .col{
+        width: calc(100% * 3);
+    }
+}
+
+@media screen and (min-width:1140px){
     .nav-desktop{
         display: block;
     }
