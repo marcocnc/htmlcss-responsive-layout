@@ -120,9 +120,13 @@ main{
     #testimonials .card{
         display: flex;
     }
+
+    .benefits-cards .col{
+        width: calc(100% / 2);
+    }
 }
 
-@media screen and (min-width:1140px){
+@media screen and (min-width:1080px){
 
     .container{
         width: 70%;
@@ -140,5 +144,7 @@ main{
         display: flex;
     }
 
-    
+    .benefits-cards .col{
+        width: calc(100% / 3);
+    }
 }

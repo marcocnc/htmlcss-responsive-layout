@@ -25,6 +25,10 @@
     justify-content: space-between;
 }
 
+.f-wrap{
+    flex-wrap: wrap;
+}
+
 /* PADDING */
 .pr-15{
     padding-right: 15px;
