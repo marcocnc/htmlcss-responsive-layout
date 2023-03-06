@@ -69,6 +69,11 @@ main{
     background-color: white;
 }
 
+/* SECTION 3 */
+.card p{
+    line-height: 25px;
+}
+
 /* RESPONSIVE */
 
 #demo .col p{
@@ -110,6 +115,10 @@ main{
 
     #planning .row{
         width: 100%;
+    }
+
+    #testimonials .card{
+        display: flex;
     }
 }
 
